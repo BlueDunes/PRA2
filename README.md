@@ -13,23 +13,25 @@ The objective is to clean and analize a dataset that contains data about stocks 
 - BEST STOCKS.py: code that executes the different web scraping procedures and generates the final dataset with the selected stocks.
 - LICENSE: document with the license.
 - best_stocks.csv: dataset with the selected stocks.
-
-## The final dataset can be found here
-https://doi.org/10.5281/zenodo.5648614
+- PRA2_jantolip_mduplag.html: Detailed explanation of all the steps taken. It includes the code and the graphs and data produced as well as the final conclusions. (html file)
+- PRA2_jantolip_mduplag.ipynb: Detailed explanation of all the steps taken. It includes the code and the graphs and data produced as well as the final conclusions. (jupyter notebooks file)
+- README.md
+- dades_finals.csv: Initial dataset
+- dades_originals.csv: Final dataset after cleaning
 
 ## Libraries needed in order to run the code
-- requests
-- BeautifulSoup
+- ffn
 - pandas
 - numpy
 - yfinance
-- datetime
-- fuzzywuzzy
+- re
+- seaborn
+- matplotlib
+- scipy.stats
+- statsmodels.graphics.gofplots
+- sklearn
 
 ## Resources
-- Subirats, L., Calvo, M. (2018). Web Scraping. Editorial UOC.
-- Morningstar https://www.morningstar.es/es/
-- Yahoo Finance https://finance.yahoo.com/
+- Calvo, M., Pérez, D., Subirats, L. (2019). Introducció a la neteja i anàlisi de dades. Editorial UOC
 - Wikipedia  
-    https://en.wikipedia.org/wiki/List_of_S%26P_500_companies  
     https://en.wikipedia.org/wiki/Nasdaq-100
